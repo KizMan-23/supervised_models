@@ -11,4 +11,34 @@ Supervised_Models contains projects that have utilized either of the two types o
 
 cleaning dataset is a very important stage for data uniformity, offering consistency in data used for training and testing models. 
 
-[mvp_prediction](mvp_prediction.ipynb)
+[mvp_prediction](mvp_prediction.ipynb) this is the training of a regression model to predict the next Most Valuable Player(MVP) lineup for the NBA. The model is trained by using past data and metrics on previous MVPs in correlation to their team performances. 
+The model training employed the powers of Linear SVR and KNeighbors Regression from scikit-learn framework to determine the better perfomed model in predicting the MVP for the NBA using past data. The models were fine-tuned using a robust GridSearchCV to fined the model parameters thus improving accuracy of the model
+
+![optimization](https://github.com/user-attachments/assets/2c2ebe39-c4ed-4ab8-9795-78f5074343a4)
+
+![feature impt](https://github.com/user-attachments/assets/f7e1ce0a-b01f-4812-801b-c0066606aad6)
+
+backtesting the models
+
+![backtesting](https://github.com/user-attachments/assets/b48537bb-50c8-49b9-8302-a21d49ce1307)
+
+
+supervised_models repo contains other classical machine learning prediction works such as [Premier_league Prediction](premier_league_predictions.ipynb). The premier_league prediction is a robust model for predicting which team will win the next match. The model can serve to provide better predictive information for game betting markets, provided the accuracy improves.
+The Premier League is the English Football league that comprises of 20 teams that are to play 38 matches within the leagues calender to determine the champion for the premier league.
+The model is trained on a dataset I scraped from the football website for years of the league standing tables and teams' performances
+
+![premier league 1](https://github.com/user-attachments/assets/8a20ba2b-113a-4efc-a728-a65b2da20ef8)
+
+In training the model, different regression techniques from scikit-learn were tested to determine the best technique that offers the optimal accuracy for the dataset..
+
+![pr lg models](https://github.com/user-attachments/assets/21aecc08-d1bd-437d-a85e-68c0e4eb2bc5)
+
+setting the target for the model prediction
+
+![pr_lg target](https://github.com/user-attachments/assets/ec11e719-a3f2-4261-8074-c6704990583b)
+
+![pr lg preds](https://github.com/user-attachments/assets/0ce4fbd6-305c-47ef-9aa0-a90e45b353b6)
+
+[Spotify Trend](spotify_trend.ipynb) Is an analysis of artists' tracks and albums released across years and its performances across different streaming platforms. This analysis and modeling helps to understand the reach of a tracks and possible returns on investment in making such tracks for artist. The analysis gives insight to platforms that can be of more importance to artists in reaching higher listeners and consumers.
+
+![sportify](https://github.com/user-attachments/assets/47d6376c-06db-4928-ad52-280f6c53a0f2)
