@@ -42,3 +42,12 @@ setting the target for the model prediction
 [Spotify Trend](spotify_trend.ipynb) Is an analysis of artists' tracks and albums released across years and its performances across different streaming platforms. This analysis and modeling helps to understand the reach of a tracks and possible returns on investment in making such tracks for artist. The analysis gives insight to platforms that can be of more importance to artists in reaching higher listeners and consumers.
 
 ![sportify](https://github.com/user-attachments/assets/47d6376c-06db-4928-ad52-280f6c53a0f2)
+
+[Student Performance](student_performance.ipynb) Is a comprehensive and indepth analysis of a dataset of students' academic performance, grouping the students according to thier Grade Classes. For every student, there are factors that could affect their class room performances in a positively or negatively manner. In this analysis, I looked into the different factors that influence the output of the students in thier grades such as parental support, voluntering works, participating in extracurricular activites etc. 
+
+![students corr](https://github.com/user-attachments/assets/83ba33b0-eb98-4524-be9c-215d69912d58)
+
+I also, developed a regression model to predict the grade level of the students based on several factors that affect students as factors. More Importantly, I applied Monotonic Constraint of the HistGradientBoostingRegressor to the model to influence the weight of each feature in relation to the target.
+
+![mono_cst](https://github.com/user-attachments/assets/c06f010a-d059-4dcb-b948-6ef2554d9f76)
+
